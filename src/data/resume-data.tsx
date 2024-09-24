@@ -20,6 +20,8 @@ import {
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { pdficon } from "@/components/icons/pdficon";
+import { Languages } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Jason Pua",
@@ -47,18 +49,29 @@ export const RESUME_DATA = {
         icon: LinkedInIcon,
       },
       {
-        name: "X",
-        url: "N/A",
-        icon: XIcon,
+        name: "PDF",
+        url: "https://raw.githubusercontent.com/jasonpxh128/jpdeloitte/refs/heads/main/public/Jason%20Pua%20-%20Resume%20(1st%20Draft).pdf",
+        icon: pdficon,
       },
     ],
   },
   education: [
     {
       school: "Monash University",
-      degree: "Bachelor's Electrical and Computer Systems",
+      degree: "Bachelor's Electrical and Computer Systems - First Class Honours Graduate",
       start: "2012",
       end: "2015",
+    },
+  ],
+  languages: [
+    {
+      Proficiency: "English",
+    },
+    {
+      Proficiency: "Mandarin",
+    },
+    {
+      Proficiency: "Korean (limited proficiency)",
     },
   ],
   work: [
@@ -71,7 +84,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: null,
       description:
-        "Account management for OEMs and MNC. Focused on revenue growth and technical enablement for Client, Data Center and IoT sectors. ",
+        "Account management for OEMs and MNCs such as Lenovo/Dell and Siemens/GE/Honeywell. Focused on revenue growth and technical enablement for Client, Data Center and IoT sectors. ",
     },
     {
       company: "ABB",
@@ -89,7 +102,7 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "React/Next.js",
-    "Node.js",
+    "VM - Proxmox",
     "OpenAI",
     "Python",
     "Pytorch",
@@ -111,149 +124,60 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://www.linkedin.com/pulse/llama3-whisper-v3-long-text-summarization-intel-xeon-cpu-jason-pua-v66de/?trackingId=R2Nc1F5URmu41my4vImzOA%3D%3D",
       },
     },
     {
-      title: "Evercast",
+      title: "Running Llama3 model on Llama.cpp with Intel Flex GPU",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "LLM & GenAI",
+        "Intel Demo",
+        "Whisper V3",
+        "OpenAI",
+        "Pytorch",
+        "HuggingFace",
+        "OpenVino"
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Running Llama3 model on Intel FLEX 170 GPU with llama.cpp",
       logo: EvercastLogo,
       link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
+        label: "github.com",
+        href: "https://www.linkedin.com/pulse/how-run-llama3-models-llamacpp-intel-gpus-sycl-oneapi-jason-pua-5g6vc/?trackingId=PgxN1cPCfuUKfgPvkIzveQ%3D%3D",
       },
     },
     {
-      title: "Consultly",
+      title: "OpenVINO Asynchronous Inferencing with ANOMALIB",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Intel Demo",
+        "OneAPI",
+        "OpenVINO",
+        "Python",
       ],
-      description: "A platform to build and grow your online business",
+      description: "OpenVINO Asynchronous Inferencing with ANOMALIB",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "github.com",
+        href: "https://www.linkedin.com/pulse/openvino-asynchronous-inferencing-anomalib-jason-pua-njbsf/?trackingId=RYbCkhslAa4lDgfwzfmOHg%3D%3D",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "My still ongoing journey understanding GPT. Training a small bigram model on Intel CPU vs GPU",
+      techStack: [
+        "Intel Demo",
+        "OneAPI",
+        "OpenVINO",
+        "Python",
+        "CPU & GPU"
+      ],
       description:
-        "Browser extension that records everything happening in a web application",
+        "A little late to the party, paying self-attention and took some time off 😄.Worked on training a small and simple bigram language model on the transfomers architecture using Intel Extension for PyTorch.",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://www.linkedin.com/pulse/my-still-ongoing-journey-understanding-gpt-training-intel-jason-pua/?trackingId=ewOH2UB1EyCHFf5LjsoBZQ%3D%3D",
       },
     },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
+    
   ],
 } as const;

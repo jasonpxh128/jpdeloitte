@@ -58,10 +58,11 @@ export const CommandMenu = ({ links }: Props) => {
             <CommandItem
               onSelect={() => {
                 setOpen(false);
-                window.print();
+                // window.print();
+                window.location.href = 'https://raw.githubusercontent.com/jasonpxh128/jpdeloitte/refs/heads/main/public/Jason%20Pua%20-%20Resume%20(1st%20Draft).pdf';
               }}
             >
-              <span>Print</span>
+              <span>Save PDF</span>
             </CommandItem>
           </CommandGroup>
           <CommandGroup heading="Links">

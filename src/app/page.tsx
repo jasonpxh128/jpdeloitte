@@ -161,6 +161,28 @@ export default function Page() {
           })}
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Languages</h2>
+          <div className="flex flex-wrap gap-5">
+            {RESUME_DATA.languages.map((languages) => {
+              return (
+                <Card key={languages.Language}>
+                  <CardHeader>
+                    <div className="flex items-center justify-between gap-x-2 text-base">
+                      <h3 className="font-semibold leading-none">
+                        {languages.Language}
+                      </h3>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="mt-2 print:text-[12px]">
+                    {languages.Proficiency}
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+
+        </Section>
+        <Section>
           <h2 className="text-xl font-bold">Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
