@@ -65,12 +65,15 @@ export const RESUME_DATA = {
   ],
   languages: [
     {
+      Language:"",
       Proficiency: "English",
     },
     {
+      Language:"",
       Proficiency: "Mandarin",
     },
     {
+      Language:"",
       Proficiency: "Korean (limited proficiency)",
     },
   ],
