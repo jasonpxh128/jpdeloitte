@@ -50,7 +50,7 @@ export const RESUME_DATA = {
       },
       {
         name: "PDF",
-        url: "https://raw.githubusercontent.com/jasonpxh128/jpdeloitte/refs/heads/main/public/Jason%20Pua%20-%20Resume%20(1st%20Draft).pdf",
+        url: "https://raw.githubusercontent.com/jasonpxh128/jpdeloitte/refs/heads/main/public/Jason%20Pua%20-%20Resume.pdf",
         icon: pdficon,
       },
     ],
