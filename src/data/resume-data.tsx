@@ -96,7 +96,7 @@ export const RESUME_DATA = {
       title: "Sales Application Engineer",
       logo: intellogo,
       start: "2021",
-      end: null,
+      end: "2024",
       description:
         "Account management for OEMs and MNCs such as Lenovo/Dell and Siemens/GE/Honeywell. Focused on revenue growth and technical enablement for Client, Data Center and IoT sectors. ",
     },
