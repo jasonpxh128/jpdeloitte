@@ -18,7 +18,6 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
-  yokogawalogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { pdficon } from "@/components/icons/pdficon";
@@ -84,7 +83,7 @@ export const RESUME_DATA = {
       link: "https://www.yokogawa.com/",
       badges: ["Global"],
       title: "Senior Solutions Manager - EDX",
-      logo: yokogawalogo,
+      logo: intellogo,
       start: "2025",
       end: null,
       description:
