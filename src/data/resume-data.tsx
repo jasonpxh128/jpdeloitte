@@ -18,6 +18,7 @@ import {
   ParabolLogo,
   TastyCloudLogo,
   YearProgressLogo,
+  yokogawalogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 import { pdficon } from "@/components/icons/pdficon";
@@ -29,11 +30,11 @@ export const RESUME_DATA = {
   location: "Kuala Lumpur, Malaysia",
   locationLink: "https://www.google.com/maps/place/kualalumpur",
   about:
-    "Sales Application Engineer with interest in AI and building all things compute software & hardware.",
+    "Senior Sales Manager / Engineer with interest in AI and building all things compute software & hardware.",
   summary:
     "Dynamic and results-driven professional with extensive experience in leading digital transformation initiatives in AI inference and data analytics across diverse industries. Proven track record of fostering collaborative environments, mentoring teams, and delivering innovative solutions that drive client success. Adept at leveraging data analytics and technology strategy to solve complex business challenges and enhance operational efficiency.",
   avatarUrl: "https://avatars.githubusercontent.com/u/85380986?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://jasonpua.vercel.app/",
   contact: {
     email: "puaxianhao@gmail.com",
     tel: "+60183728819",
@@ -78,6 +79,17 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+    {
+      company: "Yokogawa",
+      link: "https://www.yokogawa.com/",
+      badges: ["Global"],
+      title: "Senior Solutions Manager - EDX",
+      logo: yokogawalogo,
+      start: "2025",
+      end: null,
+      description:
+        "Senior Solutions Manager for EDX Division - Global Market. Looking over revenue and P&L for Digital Transformation products",
+    },
     {
       company: "Intel",
       link: "https://www.intel.com/content/www/us/en/homepage.html",
