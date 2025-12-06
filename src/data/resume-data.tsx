@@ -123,24 +123,22 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Llama 3.1 & Whisper v3 long text summarization",
+      title: "Escaping the \"API Abyss\": My Private VPC Stack for Agentic RAG",
       techStack: [
-        "LLM & GenAI",
-        "Intel Demo",
-        "Whisper V3",
+        "VLLM & Qwen3",
+        "RAG",
         "OpenAI",
-        "Pytorch",
-        "HuggingFace",
-        "OpenVino"
+        "Nvidia A100",
       ],
       description:
-        "Llama3.1 has just been released with a phenomenal context length of 128K tokens. This means that transcriptions can now be easily summarized without the need to break them into chunks.",
+        "You’re building a RAG pipeline. You have a sensitive dataset maybe a financial projection in Excel or a strategic internal PDF. You’re about to pipe it into an external API endpoint, and you pause. “Do I really want to send this into the web abyss?”",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://www.linkedin.com/pulse/llama3-whisper-v3-long-text-summarization-intel-xeon-cpu-jason-pua-v66de/?trackingId=R2Nc1F5URmu41my4vImzOA%3D%3D",
+        href: "https://www.linkedin.com/posts/jason-pua-080022111_a100-nvdia-vllm-activity-7401070040864813056-PCHG?utm_source=share&utm_medium=member_desktop&rcm=ACoAABvx_-AB4jlzRI749syu_cVNlAdNWcq2jOk",
       },
     },
+    
     {
       title: "Running Llama3 model on Llama.cpp with Intel Flex GPU",
       techStack: [
